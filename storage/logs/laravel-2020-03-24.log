@@ -1,0 +1,14 @@
+[2020-03-24 14:01:58] local.ERROR: The "--v" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--v\" option does not exist. at C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Input\\ArgvInput.php:218)
+[stacktrace]
+#0 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Input\\ArgvInput.php(154): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('v', NULL)
+#1 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Input\\ArgvInput.php(82): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--v')
+#2 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Application.php(908): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Symfony\\Component\\Console\\Command\\ListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xamppas\\htdocs\\exc\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xamppas\\htdocs\\exc\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xamppas\\htdocs\\exc\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xamppas\\htdocs\\exc\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 

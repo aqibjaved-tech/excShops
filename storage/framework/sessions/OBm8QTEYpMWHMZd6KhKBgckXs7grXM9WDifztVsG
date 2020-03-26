@@ -1,0 +1,12 @@
+a:6:{s:6:"_token";s:40:"BG4Y6F5U8kN5Xd8l0X8aDJdtEZ4inJsiiRrkKfs5";s:12:"cartquantify";i:0;s:9:"_previous";a:1:{s:3:"url";s:57:"http://exc.test/assets/mazaar/css/plugins/ajax-loader.gif";}s:6:"_flash";a:2:{s:3:"old";a:1:{i:0;s:7:"success";}s:3:"new";a:0:{}}s:6:"cartid";s:116:"Array
+(
+    [0] => methodCart
+    [1] => sundiego
+)
+Array
+(
+    [0] => value:: 
+    [1] => sundiego
+    [2] => 1
+)
+8";s:7:"success";s:24:"Item added successfully!";}
