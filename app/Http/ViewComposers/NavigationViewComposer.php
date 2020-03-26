@@ -1,7 +1,6 @@
 <?php
 namespace App\Http\ViewComposers;
 
-use App\User;
 use App\Repositories\StoreRepositoryInterface;
 use Session;
 use Cookie;
