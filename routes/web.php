@@ -14,11 +14,12 @@
 // Route::post('/create_site_folder','StoreViewController@sitepages');
 
 Route::group(['domain' => '{domain}'],  function () {
-         Route::get('/', ['uses'=>'StoreViewController@index', 'subdomain' => 'AQ']);
+         // Route::get('/', ['uses'=>'StoreViewController@index', 'subdomain' => 'AQ']);
+         Route::get('/', 'StoreViewController@index');
          //Route::get('/', 'NewsController@store');
-         Route::get('/brands', ['uses'=>'StoreViewController@brands','subdomain' => 'AQ']);
+         Route::get('/brands', 'StoreViewController@brands');
 
-         Route::get('/product-filter', ['uses'=>'StoreViewController@product_filteration', 'subdomain' => 'AQ']);
+         Route::get('/product-filter', 'StoreViewController@product_filteration');
          Route::get('/brands/{brandname}', ['as' => 'brand_name', 'uses' => 'StoreViewController@productsListing']);
          Route::get('/{brandname}/{productname}/{pid}', ['as' => 'product_name', 'uses' => 'StoreViewController@productsDetails']);
          Route::get('/product/{pid}', 'StoreViewController@filter_product_details');
